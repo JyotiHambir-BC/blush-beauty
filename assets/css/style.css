@@ -96,7 +96,7 @@ header ul li #phoneNumber:hover {
 /* ----------------------------------------------------------------------------------------- */
 /* For Responsive Screen */
 
-@media (max-width:1024px){
+@media (max-width:1176px){
     .sectionFirst{
         background-color: var(--global-color-2);
     }
@@ -110,6 +110,11 @@ header ul li #phoneNumber:hover {
         width: 100%;
         top: 88%;
         left: 0;
+        display: none;
+    }
+
+    header.active nav {
+        display: block;
     }
     
     header ul li {
@@ -171,6 +176,15 @@ header ul li #phoneNumber:hover {
         height: 3px;
         background: #fff;        
         transform: translateY(12px);
+    }
+
+    header.active .menuToggle::before {
+        transform: rotate(45deg);
+        box-shadow: 0 0 #fff;
+    }
+
+    header.active .menuToggle::after {
+        transform: rotate(315deg);        
     }
 
 }

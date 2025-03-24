@@ -1,1 +1,1 @@
-# blush-beauty
+<h1 align="center"> Blush Beauty </h1>

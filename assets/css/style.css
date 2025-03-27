@@ -138,6 +138,59 @@ header ul li #phoneNumber:hover {
     gap: 2rem;
     max-width: 60%;
 }
+
+.sectionFirst .frontPage .address {
+    color: var(--global-color-0);
+    font-size: 25px;
+    line-height: 1.2em;
+    font-family: var(--font-02);
+}
+
+.sectionFirst .frontPage .heading {
+    font-size: 3.24rem;
+    font-family: var(--font-02);
+    font-weight: 400;
+}
+
+.sectionFirst .frontPage .para {}
+
+.sectionFirst .frontPage .btn {
+    gap: 2rem;
+    display: flex;
+    margin-top: 3rem;
+}
+
+.sectionFirst .frontPage .btn a {
+    border-radius: 7px;
+    padding: 17px 30px;
+    text-decoration: none;
+}
+
+.sectionFirst .frontPage .btn a:nth-child(1){
+    border: 1px solid var(--global-color-0);
+    background-color: var(--global-color-0);
+    color: var(--global-color-4);
+    transition: all .4s ease;
+}
+
+.sectionFirst .frontPage .btn a:nth-child(1):hover{
+    border: 1px solid var(--global-color-1);
+    background-color: var(--global-color-1);    
+}
+
+.sectionFirst .frontPage .btn a:nth-child(2){
+    border: 1px solid var(--global-color-0);
+    background-color: var(--global-color-4);
+    color: var(--global-color-0);
+    transition: all .4s ease;
+}
+
+.sectionFirst .frontPage .btn a:nth-child(2):hover{
+    border: 1px solid var(--global-color-4);
+    background-color: var(--global-color-4);
+    color: var(--global-color-1);    
+}
+
 /* ----------------------------------------------------------------For Responsive Screen */
 
 
